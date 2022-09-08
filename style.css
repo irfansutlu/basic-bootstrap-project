@@ -22,3 +22,20 @@
     left: 2.2rem;
     top: 2rem;
 }
+.product-img{
+    object-fit: cover;
+}
+.team img{
+   width: 250px; 
+   border: 10px solid #cccccc;
+}
+.social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color:#333 ;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 40px;
+    margin: auto 3px;
+}
