@@ -4,4 +4,21 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    color: purple;
+    padding: 20%;
+}
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    width: 10rem;
+    margin: auto;
+    height: 10rem;
+    color: #fff;
+    background-color: #dc3545;
+    position: relative;
+}
+.fa-solid{
+    position: absolute;
+    left: 2.2rem;
+    top: 2rem;
 }
