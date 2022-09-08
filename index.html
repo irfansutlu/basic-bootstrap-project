@@ -21,10 +21,21 @@
     >
       <div class="container">
         <a href="#main" class="navbar-brand">Harvey Tech</a>
-        <button class="navbar-toggler">
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-right">
+        <div
+          class="collapse navbar-collapse text-right collapse"
+          id="navbarText"
+        >
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="#services">Services</a>
@@ -315,7 +326,42 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid pt-5 pb-5" id="contactus"></div>
+    <div class="container-fluid pt-5 pb-5 contact" id="contactus">
+      <div class="container">
+        <h2 class="display-3 text-center">Contact us</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, porro.
+        </p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control form-control-lg mb-3"
+              placeholder="Name"
+            />
+            <input
+              type="text"
+              class="form-control form-control-lg mb-3"
+              placeholder="Email"
+            />
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control form-control-lg" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto text-center">
+          <button class="btn btn-danger btn-lg">Send Message</button>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center pt-5 pb-5">
+      All Rights Reserved © 2022
+    </div>
     <script src="./assets/bootstrap-5.2.1-dist/js/bootstrap.js"></script>
   </body>
 </html>

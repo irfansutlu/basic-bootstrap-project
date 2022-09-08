@@ -39,3 +39,14 @@
     line-height: 40px;
     margin: auto 3px;
 }
+.client img{
+    max-height: 50px;
+    width: auto;
+}
+.contact{
+    background-image: url(./image/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
